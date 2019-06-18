@@ -1,0 +1,14 @@
+{
+  "header": {
+    "home": "主页",
+    "users": "用户",
+    "vehicle": "车辆",
+    "content": "内容",
+    "login": "登录",
+    "admin": "管理员"
+  },
+  "login": {
+    "select": "请选择日期",
+    "login": "登录"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "header": {
+    "home": "Home",
+    "users": "Users",
+    "vehicle": "Vehicles",
+    "content": "Contents",
+    "login": "Login",
+    "admin": "admin"
+  },
+  "login": {
+    "select": "Please select date",
+    "login": "Login"
+  }
+}
