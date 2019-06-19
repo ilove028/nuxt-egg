@@ -32,8 +32,9 @@ export default {
           account: this.account,
           password: this.password
         })
-        .then(({ data: { token } }) => {
-          document.cookie = `token=${token}`
+        .then(({ data }) => {
+          // document.cookie = `token=${token}`
+          this.$store.commit('setUser', data)
           this.$router.push({ path: this.$i18n.path('') })
         })
     }

@@ -12,6 +12,7 @@ module.exports = class UserController extends Controller {
     this.ctx.body = [{ name: 'Mx', age: 29 }, { name: 'Zyx', age: 27 }]
   }
   async query() {
-    this.ctx.body = { token: this.ctx.request.body.account }
+    // this.ctx.body = { token: this.ctx.request.body.account }
+    this.ctx.body = { token: +new Date() }
   }
 }

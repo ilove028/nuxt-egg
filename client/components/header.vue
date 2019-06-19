@@ -13,7 +13,11 @@
         </nuxt-link>
       </li>
       <auth :has-permissions="permissions" :need-permissions="['admin']">
-        <li>{{ $t('header.admin') }}</li>
+        <li>
+          <nuxt-link :to="$i18n.path('setting')" :exact="false">
+            {{ $t('header.admin') }}
+          </nuxt-link>
+        </li>
       </auth>
     </ul>
   </header>
