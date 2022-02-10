@@ -47,7 +47,7 @@
     "eslint-plugin-vue": "^5.2.2",
     "http-proxy": "^1.17.0",
     "jest": "^24.1.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.18.9",
     "path-match": "^1.2.4",
     "prettier": "^1.16.4",
